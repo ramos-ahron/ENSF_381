@@ -1,0 +1,5 @@
+Gmail    - https://www.flaticon.com/free-icons/gmail
+Youtube  - https://www.flaticon.com/free-icons/youtube
+Linkedin - https://www.flaticon.com/free-icons/linkedin
+Location - https://www.flaticon.com/free-icons/geolocation
+Phone    - https://www.flaticon.com/free-icons/phone
