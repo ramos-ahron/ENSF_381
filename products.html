@@ -13,21 +13,25 @@
     </head>
 
     <body>
-        <header>
+        <header class="header">
+            <div class="logo">
             <!-- Logo and website name go here -->
-            <img src="images/Logo/HHLogo.jpg" alt="Harvest Hues by Adrian Co and Ahron Ramos" width="200">
-            <h1>Harvest Hues: Cultivating a Sustainable Tomorrow</h1>
+                <img src="images/Logo/HHLogo.jpg" alt="Harvest Hues by Adrian Co and Ahron Ramos" width="200">
+            </div>
+            <div class="company-name">
+                Harvest Hues: Cultivating a Sustainable Tomorrow
+            </div>
         </header>
-        <div>
+        <nav>
             <!-- Navigation links go here -->
             <a href="index.html">Home</a>
             <a href="products.html">Products</a>
             <a href="contact.html">Contacts</a>
             <a href="login.html">Login</a>
-        </div>
+        </nav>
         <hr />
         <main>
-            <div>
+            <section class="product-list">
                 <table border="1px" width="70%" height="70%">
                     <tr align="center">
                         <td colspan="2">
@@ -36,43 +40,51 @@
                     </tr>
                     <tr align="center">
                         <td width="300">
-                            <img src="images/Products/CSAMembershipCards.jpeg" alt="CSA Membership Card" width="200" height="230"> <br>
-                            <h3>CSA Membership</h3>
-                            <h6>Offers regular deliveries of fresh, seasonal produce through community-supported agriculture memberships, fostering
-                            community engagement.</h6>
-                            <p>$29.99 / month</p>
-                            <button type="submit">Add to Cart</button>
+                            <div class="product"></div>
+                                <img src="images/Products/CSAMembershipCards.jpeg" alt="CSA Membership Card" width="200" height="230"> <br>
+                                <h3>CSA Membership</h3>
+                                <h6>Offers regular deliveries of fresh, seasonal produce through community-supported agriculture memberships, fostering
+                                community engagement.</h6>
+                                <p class="price">$29.99 / month</p>
+                                <button type="submit">Add to Cart</button>
+                            </div>
                         </td>
                         <td width="300">
-                            <img src="images/Products/Cookbook.jpeg" alt="Harvest Hues Coockbook" width="200" height="230"> <br>
-                            <h3>Harvest Hues Coockbook</h3>
-                            <h6>Compiles a recipe book featuring Harvest Hues products, including stories about farmers and sustainable practices.</h6>
-                            <p>$19.99</p>
-                            <button type="submit">Add to Cart</button>
+                            <div class="product">
+                                <img src="images/Products/Cookbook.jpeg" alt="Harvest Hues Coockbook" width="200" height="230"> <br>
+                                <h3>Harvest Hues Coockbook</h3>
+                                <h6>Compiles a recipe book featuring Harvest Hues products, including stories about farmers and sustainable practices.</h6>
+                                <p class="price">$19.99</p>
+                                <button type="submit">Add to Cart</button>
+                            </div>
                         </td>
                     </tr>
                     <tr align="center">
                         <td width="300">
-                            <img src="images/Products/EcoFGardenKits.jpeg" alt="Eco-Friendly Gardening Kits" width="200" height="230"> <br>
-                            <h3>Eco-Friendly Gardening Kits</h3>
-                            <h6>Provide gardening kits with seeds and sustainable materials, encouraging customers to cultivate their mini harvests at
-                            home.</h6>
-                            <p>$39.99</p>
-                            <button type="submit">Add to Cart</button>
+                            <div class="product">
+                                <img src="images/Products/EcoFGardenKits.jpeg" alt="Eco-Friendly Gardening Kits" width="200" height="230"> <br>
+                                <h3>Eco-Friendly Gardening Kits</h3>
+                                <h6>Provide gardening kits with seeds and sustainable materials, encouraging customers to cultivate their mini harvests at
+                                home.</h6>
+                                <p class="price">$39.99</p>
+                                <button type="submit">Add to Cart</button>
+                            </div>
                         </td>
                         <td width="300">
-                            <img src="images/Products/HerbalAndFloralTea.jpeg" alt="Floral and Herbal Tea Blends" width="200" height="230"> <br>
-                            <h3>Floral and Herbal Tea Blends</h3>
-                            <h6>Develop aromatic tea blends using farm-picked flowers and herbs, offering a soothing beverage experience.</h6>
-                            <p>$24.99</p>
-                            <button type="submit">Add to Cart</button>
+                            <div class="product">
+                                <img src="images/Products/HerbalAndFloralTea.jpeg" alt="Floral and Herbal Tea Blends" width="200" height="230"> <br>
+                                <h3>Floral and Herbal Tea Blends</h3>
+                                <h6>Develop aromatic tea blends using farm-picked flowers and herbs, offering a soothing beverage experience.</h6>
+                                <p>$24.99</p>
+                                <button type="submit">Add to Cart</button>
+                            </div>
                         </td>
                     </tr>
                 </table>
-            </div>
+            </section>
         </main>
         <hr />
-        <footer>
+        <footer class="footer">
             <!-- Copyright notice goes here -->
             <p>Copyright Adrian Co, Ahron Ramos.</p>
         </footer>

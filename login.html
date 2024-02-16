@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>HarvestHues: Cultivating a Sustainable Tomorrow</title>
+        <title>HarvestHues: Login</title>
         <meta charset="UTF-8">
         <meta name="description" content="ENSF 381 - Assignment 1">
         <meta name="keywords" content="ENSF 381, Assignment 1, Company Website, Harvest Hues">
@@ -13,29 +13,34 @@
     </head>
 
     <body>
-        <header>
-            <img src="images/Logo/HHLogo.jpg" alt="Harvest Hues by Adrian Co and Ahron Ramos" width="200">
-            <h1>Harvest Hues: Cultivating a Sustainable Tomorrow</h1>
+        <header class="header">
+            <div class="logo">
+                <img src="images/Logo/HHLogo.jpg" alt="Harvest Hues by Adrian Co and Ahron Ramos" width="200">
+            </div>
+            <div class="company-name">
+                Harvest Hues: Cultivating a Sustainable Tomorrow
+            </div>
         </header>
-        <div>
+        <!-- Navigation Section -->
+        <nav>
             <a href="index.html">Home</a>
             <a href="products.html">Products</a>
             <a href="contact.html">Contacts</a>
             <a href="login.html">Login</a>
-        </div>
+        </nav>
         <hr />
         <main>
             <div>
-                <form text-alig>
+                <form action="#" method="post">
                     <table>
                         <tr align="center">
                             <td>
-                                <h2>Login</h2>
+                                Login
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <input type="text" id="email" name="email" placeholder="&#9993; Email Address" required>
+                                <input type="text" id="username" name="username" placeholder="&#9993; Email Address" required>
                             </td>
                         </tr>
                         <tr>
@@ -45,7 +50,7 @@
                         </tr>
                         <tr align="center">
                             <td>
-                                <button type="submit">Sign In</button>
+                                <button type="submit" class="signin-btn">Sign In</button>
                             </td>
                         </tr>
                     </table>
@@ -58,7 +63,7 @@
             </div>
         </main>
         <hr />
-        <footer>
+        <footer class="footer">
             <!-- Copyright notice goes here -->
             <p>Copyright Adrian Co, Ahron Ramos.</p>
         </footer>
