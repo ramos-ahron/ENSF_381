@@ -1,0 +1,87 @@
+/* Header for all Files */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 0px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #333;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+/* Footer for all Files */
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+
+/*
+index.html specific style tags
+*/
+
+/* Includes About Us and Customer Reviews nav tags */
+.index-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #6B7C6A;
+}
+
+.index-nav a {
+    text-decoration: none;
+    color: #ADD8E6;
+    padding: 10px 20px;
+}
+
+/* About Harvest Hues */
+/* !CHANGE THIS LOOKS UGLY LOL*/
+.about-us div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Index Buttons */
+.index-btn {
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+/* Customer Reviews */
+.customer-reviews {
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+}
+
+/*
+End of index.html specific tags
+*/
