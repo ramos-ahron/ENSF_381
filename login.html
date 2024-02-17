@@ -28,41 +28,24 @@
             <a href="contact.html">Contacts</a>
             <a href="login.html">Login</a>
         </nav>
-        <hr />
+        <!-- <hr /> -->
         <main>
-            <div>
-                <form action="#" method="post">
-                    <table>
-                        <tr align="center">
-                            <td>
-                                Login
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="text" id="username" name="username" placeholder="&#9993; Email Address" required>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="password" id="password" name="password" placeholder="&#128272; Password" required>
-                            </td>
-                        </tr>
-                        <tr align="center">
-                            <td>
-                                <button type="submit" class="signin-btn">Sign In</button>
-                            </td>
-                        </tr>
-                    </table>
-                </form>
-                <input type="checkbox" id="remember-me" name="remember-me" value="yes">
-                <label for="remember-me">Remember Me</label>
-                <br>
-
-                <p>New User? <a href="index.html">Sign Up Now!</a></p>
-            </div>
+        <section class="login-form">
+            <form action="#" method="post">
+                <!-- !remove labels later -->
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required placeholder="&#128100; Username">
+        
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required placeholder="&#128272; Password">
+        
+                <button type="submit" class="login-btn">Login</button>
+                <p>Don't have an account? <a href="signup.html" class="signup-link">Sign Up Now!</a>.</p>
+            </form>
+        
+        </section>
         </main>
-        <hr />
+        <!-- <hr /> -->
         <footer class="footer">
             <!-- Copyright notice goes here -->
             <p>Copyright Adrian Co, Ahron Ramos.</p>
