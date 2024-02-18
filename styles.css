@@ -150,7 +150,47 @@ End of product.html specific tags
 contact.html specific style tags
 */
 
+/* Gray background */
+.contact-info {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
 
+.contact-method {
+    background-color: #ddd;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+/* Form */
+.contact-method form {
+    padding: 10px;
+    background-color: #014D4B;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* Online Platform Lists */
+.contact-method ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* For all Links */
+.online-links:hover {
+    color: #007BFF;
+}
+
+/* Left + Right Side of Contact Page */
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /*
 End of product.html specific tags
