@@ -1,0 +1,357 @@
+/* Styles that apply for all files */
+/* Header for all Files */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 0px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #333;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+/* Footer for all Files */
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+/* End of styles for all files */
+
+/*
+index.html specific style tags
+*/
+
+/* Includes About Us and Customer Reviews nav tags */
+.index-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #6B7C6A;
+}
+
+.index-nav a {
+    text-decoration: none;
+    color: #ADD8E6;
+    padding: 10px 20px;
+}
+
+/* About Harvest Hues */
+.about-us div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Index Buttons */
+.index-btn {
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+/* Customer Reviews */
+.customer-reviews {
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+}
+
+/*
+End of index.html specific tags
+*/
+
+/*
+products.html specific style tags
+*/
+
+@media screen and (max-width: 768px) {
+
+    td,
+    th {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav a {
+        padding: 10px;
+    }
+}
+
+/* Product Table */
+.product-list {
+    background-color: #333;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Product Cell */
+.product {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.product:hover {
+    background-color: #ffffff;
+}
+
+/* Images */
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+.product button {
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    border: none;
+    color: white;
+}
+
+.product button:hover {
+    background-color: #45A049;
+}
+
+/* Name on top of all the products */
+.product-head {
+    color: white;
+}
+
+/* Price -> Turns them blue + bold */
+.price {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.shopping-cart{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.shopping-cart h2 {
+    margin: 0px;
+}
+
+.product-info{
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.removeButton{
+    background-color: #4CAF50;  
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.removeButton:hover {
+    background-color: #ff0000;
+}
+
+
+/*
+End of product.html specific tags
+*/
+
+/*
+contact.html specific style tags
+*/
+
+/* Gray background */
+.contact-info {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.contact-method {
+    background-color: #ddd;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+/* Form */
+.contact-method form {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* Online Platform Lists */
+.contact-method ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* For all Links */
+.online-links:hover {
+    color: #007BFF;
+}
+
+/* Left + Right Side of Contact Page */
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*
+End of contact.html specific tags
+*/
+
+/*
+login.html specific style tags
+*/
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.login-form label {
+    display: block;
+    margin: 10px;
+}
+
+.login-form input {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.login-btn {
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    opacity: 0.5;
+}
+
+.login-btn:hover {
+    background-color: #45A049;
+    opacity: 1.0;
+}
+
+.signup-link {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+
+.message-box{
+    border-width: 2px;
+    background-color:#f9f9f9;
+    padding: 10px;
+    margin: 20px;
+}
+
+/*
+End of login.html specific tags
+*/
+
+/*
+signup.html specific style tags
+*/
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.signup-form label {
+    display: block;
+    margin: 10px;
+}
+
+.signup-form input {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.signup-btn {
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    opacity: 0.5;
+}
+
+.signup-btn:hover {
+    background-color: #45A049;
+    opacity: 1.0;
+}
+
+.login-link {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
