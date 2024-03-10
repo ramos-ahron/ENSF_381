@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
             let containsUpper = /[A-Z]/.test(password);
             let containsSpace = /\s/.test(password);
             let containsNumber = /\d/.test(password);
-            let containsSpecialCharacter = /^[!@#$%^&*()\-_=+[\]{};:\'",.<>/?\\|]/.test(password);
+            let containsSpecialCharacter = /[!@#$%^&*()\-_=+[\]{};:\'",.<>/?\\|]/.test(password);
             if (username.length >= 3 && username.length <= 20 && containsLetter.test(username[0]) && containsValidCharacters.test(username)) {
                 userNameValid = true;
             }
