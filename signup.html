@@ -1,0 +1,79 @@
+<!-- login.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HarvestHues: Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="ENSF 381, Assignment 1, Company Website, Harvest Hues">
+        <meta name="author" content="David Nguyen & Adrian Co">
+        <link rel="shortcut icon" href="images/Logo/HHShortcut.ico" type="images/x-icon">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="logo">
+                <img src="images/Logo/HHLogo.jpg" alt="Harvest Hues by Adrian Co and David Nguyen" width="100">
+            </div>
+            <div class="company-name">
+                Harvest Hues: Cultivating a Sustainable Tomorrow
+            </div>
+        </header>
+        <!-- Navigation Section -->
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contacts</a>
+            <a href="login.html">Login</a>
+        </nav>
+        <!-- <hr /> -->
+        <main>
+        <section class="signup-form">
+            <form id = "form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required placeholder="&#128100; Username">
+        
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required placeholder="&#128272; Password">
+        
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required placeholder="&#128272; Password">
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required placeholder="&#9993; Email">
+
+                <button type="submit" class="signup-btn">Sign Up</button>
+                <p>Already have an account? <a href="login.html" class="login-link">Log In</a>.</p>
+            </form>
+        </section>
+
+        <div class ="message-box">
+            <p hidden class ="username-message">
+                Check Username
+            </p>
+            <p hidden class ="password-message">
+                Check Password
+            </p>
+            <p hidden class ="password-match-message">
+                Password doesn't Match
+            </p>
+            <p hidden class ="email-message">
+                Check Email
+            </p>
+            <p hidden class ="success-message">
+                Successfully Created an Account!
+            </p>
+        </div>
+
+        </main>
+        <!-- <hr /> -->
+        <footer class="footer">
+            <!-- Copyright notice goes here -->
+            <p>Copyright Adrian Co, David Nguyen.</p>
+        </footer>
+
+        <script src = "signup.js"></script>
+    </body>
+</html>

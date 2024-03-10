@@ -29,15 +29,16 @@ document.addEventListener("DOMContentLoaded", function() {
             let passwordValid = false;
             let emailValid = false;
             let containsValidCharacters = /^[a-zA-Z0-9_-]+$/;
-            let containsLetter = /^[a-zA-Z]+$/
+            let containsLetter = /^[a-zA-Z]+$/;
             let containsLower = /[a-z]/.test(password);
             let containsUpper = /[A-Z]/.test(password);
             let containsSpace = /\s/.test(password);
             let containsNumber = /\d/.test(password);
+            let containsSpecialCharacter = /^[!@#$%^&*()\-_=+[\]{};:\'",.<>/?\\|]/.test(password);
             if (username.length >= 3 && username.length <= 20 && containsLetter.test(username[0]) && containsValidCharacters.test(username)) {
                 userNameValid = true;
             }
-            if(password.length >= 8 && containsUpper && containsLower && !containsSpace && containsNumber){
+            if(password.length >= 8 && containsUpper && containsLower && !containsSpace && containsNumber && containsSpecialCharacter){
                 passwordValid = true;
             }  
             if (confirmPassword === password){
