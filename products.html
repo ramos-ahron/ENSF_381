@@ -5,76 +5,94 @@
     <head>
         <title>HarvestHues: Products</title>
         <meta charset="UTF-8">
-        <meta name="description" content="ENSF 381 - Assignment 1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="ENSF 381, Assignment 1, Company Website, Harvest Hues">
-        <meta name="author" content="Ahron Ramos & Adrian Co">
+        <meta name="author" content="David Nguyen & Adrian Co">
         <link rel="shortcut icon" href="images/Logo/HHShortcut.ico" type="images/x-icon">
         <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
-        <header>
+        <header class="header">
+            <div class="logo">
             <!-- Logo and website name go here -->
-            <img src="images/Logo/HHLogo.jpg" alt="Harvest Hues by Adrian Co and Ahron Ramos" width="200">
-            <h1>Harvest Hues: Cultivating a Sustainable Tomorrow</h1>
+                <img src="images/Logo/HHLogo.jpg" alt="Harvest Hues by Adrian Co and David Nguyen" width="100">
+            </div>
+            <div class="company-name">
+                Harvest Hues: Cultivating a Sustainable Tomorrow
+            </div>
         </header>
-        <div>
+        <nav class="nav">
             <!-- Navigation links go here -->
             <a href="index.html">Home</a>
             <a href="products.html">Products</a>
             <a href="contact.html">Contacts</a>
             <a href="login.html">Login</a>
-        </div>
-        <hr />
+        </nav>
         <main>
-            <div>
-                <table border="1px" width="70%" height="70%">
+            <section class="product-list">
+                <table border="0px" width="100%">
                     <tr align="center">
                         <td colspan="2">
-                            <h2>Products</h2>
+                            <h2 class="product-head">Products</h2>
                         </td>
                     </tr>
                     <tr align="center">
                         <td width="300">
-                            <img src="images/Products/CSAMembershipCards.jpeg" alt="CSA Membership Card" width="200" height="230"> <br>
-                            <h3>CSA Membership</h3>
-                            <h6>Offers regular deliveries of fresh, seasonal produce through community-supported agriculture memberships, fostering
-                            community engagement.</h6>
-                            <p>$29.99 / month</p>
-                            <button type="submit">Add to Cart</button>
+                            <div class="product">
+                                <img src="images/Products/CSAMembershipCards.jpeg" alt="CSA Membership Card" width="200" height="230"> <br>
+                                <h3>CSA Membership</h3>
+                                <h6>Offers regular deliveries of fresh, seasonal produce through community-supported agriculture memberships, fostering
+                                community engagement.</h6>
+                                <p class="price">$29.99 / month</p>
+                                <button type="submit" class="add-to-cart">Add to Cart</button>
+                            </div>
                         </td>
                         <td width="300">
-                            <img src="images/Products/Cookbook.jpeg" alt="Harvest Hues Coockbook" width="200" height="230"> <br>
-                            <h3>Harvest Hues Coockbook</h3>
-                            <h6>Compiles a recipe book featuring Harvest Hues products, including stories about farmers and sustainable practices.</h6>
-                            <p>$19.99</p>
-                            <button type="submit">Add to Cart</button>
+                            <div class="product">
+                                <img src="images/Products/Cookbook.jpeg" alt="Harvest Hues Cookbook" width="200" height="230"> <br>
+                                <h3>Harvest Hues Cookbook</h3>
+                                <h6>Compiles a recipe book featuring Harvest Hues products, including stories about farmers and sustainable practices.</h6>
+                                <p class="price">$19.99</p>
+                                <button type="submit" class="add-to-cart">Add to Cart</button>
+                            </div>
                         </td>
                     </tr>
                     <tr align="center">
                         <td width="300">
-                            <img src="images/Products/EcoFGardenKits.jpeg" alt="Eco-Friendly Gardening Kits" width="200" height="230"> <br>
-                            <h3>Eco-Friendly Gardening Kits</h3>
-                            <h6>Provide gardening kits with seeds and sustainable materials, encouraging customers to cultivate their mini harvests at
-                            home.</h6>
-                            <p>$39.99</p>
-                            <button type="submit">Add to Cart</button>
+                            <div class="product">
+                                <img src="images/Products/EcoFGardenKits.jpeg" alt="Eco-Friendly Gardening Kits" width="200" height="230"> <br>
+                                <h3>Eco-Friendly Gardening Kits</h3>
+                                <h6>Provide gardening kits with seeds and sustainable materials, encouraging customers to cultivate their mini harvests at
+                                home.</h6>
+                                <p class="price">$39.99</p>
+                                <button type="submit" class="add-to-cart">Add to Cart</button>
+                            </div>
                         </td>
                         <td width="300">
-                            <img src="images/Products/HerbalAndFloralTea.jpeg" alt="Floral and Herbal Tea Blends" width="200" height="230"> <br>
-                            <h3>Floral and Herbal Tea Blends</h3>
-                            <h6>Develop aromatic tea blends using farm-picked flowers and herbs, offering a soothing beverage experience.</h6>
-                            <p>$24.99</p>
-                            <button type="submit">Add to Cart</button>
+                            <div class="product">
+                                <img src="images/Products/HerbalAndFloralTea.jpeg" alt="Floral and Herbal Tea Blends" width="200" height="230"> <br>
+                                <h3>Floral and Herbal Tea Blends</h3>
+                                <h6>Develop aromatic tea blends using farm-picked flowers and herbs, offering a soothing beverage experience.</h6>
+                                <p class="price">$24.99</p>
+                                <button type="submit" class="add-to-cart">Add to Cart</button>
+                            </div>
                         </td>
                     </tr>
                 </table>
-            </div>
+                <div class="shopping-cart">
+                    <h2>Shopping Cart
+                    </h2>
+                </div>
+            </section>
         </main>
-        <hr />
-        <footer>
+        <!-- <hr /> -->
+        <footer class="footer">
             <!-- Copyright notice goes here -->
-            <p>Copyright Adrian Co, Ahron Ramos.</p>
+            <p>Copyright Adrian Co, David Nguyen.</p>
         </footer>
+
+        <script src="product.js"></script>
+
     </body>
 </html>
